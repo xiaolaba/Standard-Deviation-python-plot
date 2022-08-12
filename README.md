@@ -1,6 +1,16 @@
 # Standard-Deviation-python-plot
 clone and change data set, the original code has error but able to manage and fixed
 
+code fixed
+```
+#%matplotlib notebook
+'exec(%matplotlib inline)'
+
+##matplotlib.rc('font', **font)
+plt.rc('font', **font)
+
+```
+
 original code posted, https://towardsdatascience.com/using-standard-deviation-in-python-77872c32ba9b
 
 Python 3.7.3 used  
