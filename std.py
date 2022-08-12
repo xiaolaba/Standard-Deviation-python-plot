@@ -33,6 +33,12 @@ Mean_DataSet_B=np.mean(DataSet_B)
 STDV_DataSet_A=np.std(DataSet_A)
 STDV_DataSet_B=np.std(DataSet_B)
 
+print('Mean_DataSet_A:', Mean_DataSet_A)
+print('STDV_DataSet_A:', STDV_DataSet_A)
+print('Mean_DataSet_B:', Mean_DataSet_B)
+print('STDV_DataSet_B:', STDV_DataSet_B)
+
+
 # Create a figure with customized size
 fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111)
@@ -84,6 +90,7 @@ plt.rcParams.update(params)
 font = {'family' : 'Arial',
         'weight':'bold',
         'size'   : 12}
+##matplotlib.rc('font', **font)
 plt.rc('font', **font)
 
 
